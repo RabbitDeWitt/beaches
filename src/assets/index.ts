@@ -4,6 +4,7 @@ import keywest from './keywest.jpg'
 import maldives from './maldives.jpg'
 import maldives2 from './maldives2.jpg'
 import maldives3 from './maldives3.jpg'
+import beachVid from './beachVid.mp4'
 
 export {
   borabora,
@@ -11,5 +12,6 @@ export {
   keywest,
   maldives,
   maldives2,
-  maldives3
+  maldives3,
+  beachVid
 }

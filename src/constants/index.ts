@@ -1,11 +1,12 @@
 import { BsFacebook, BsInstagram, BsPinterest, BsYoutube, BsTwitter } from 'react-icons/bs'
+import { borabora, borabora2, maldives, maldives2, keywest } from '../assets'
 
 export const navLinks = [
   {
-    title: 'Home'
+    title: 'Home',
   },
   {
-    title: 'Destination'
+    title: 'Destination',
   },
   {
     title: 'Travel'
@@ -33,5 +34,38 @@ export const socialMedias = [
   },
   {
     icon: BsYoutube,
+  },
+]
+
+export const destinationImages = [
+  {
+    img: borabora
+  },
+  {
+    img: borabora2
+  },
+  {
+    img: maldives
+  },
+  {
+    img: maldives2
+  },
+  {
+    img: keywest
+  },
+]
+
+export const optionsDestinations = [
+  {
+    name: 'Grande Antigua'
+  },
+  {
+    name: 'Key West'
+  },
+  {
+    name: 'Maldives'
+  },
+  {
+    name: 'Cozumel'
   },
 ]

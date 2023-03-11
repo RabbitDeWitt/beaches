@@ -1,7 +1,9 @@
 import Navbar from "./Navbar";
-import Home from "./Home";
+import Hero from "./Hero";
+import Destinations from "./Destinations";
 
 export {
   Navbar,
-  Home,
+  Hero,
+  Destinations
 }

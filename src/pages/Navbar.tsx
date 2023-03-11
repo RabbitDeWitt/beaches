@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { navLinks, socialMedias } from '../constants'
 import { AiOutlineSearch, AiOutlineUser, AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import { IconType } from 'react-icons'
@@ -12,7 +12,7 @@ const Navbar = (props: Props) => {
   const socialLogo = (Icon: IconType) => <Icon size={20} />
 
   return (
-    <header className='flex w-full h-20 justify-between items-center px-4'>
+    <header className='flex w-full h-20 justify-between items-center px-4 bg-transparent absolute top-0 left-0 z-[5] text-white'>
       <h1 className='md:text-4xl'>BEACHES.</h1>
 
       <ul className='hidden md:flex justify-between'>
@@ -32,10 +32,10 @@ const Navbar = (props: Props) => {
       </div>
 
       <button className='md:hidden z-40' onClick={() => setToggle(!toggle)}>
-        {toggle ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
+        {toggle ? <AiOutlineClose size={25} className='text-black' /> : <AiOutlineMenu size={25} />}
       </button>
 
-      <div className={`${toggle ? 'absolute' : 'hidden'} top-0 left-0 md:hidden z-30 bg-gray-100/90 w-full px-4 pb-7 flex flex-col`}>
+      <div className={`${toggle ? 'absolute' : 'hidden'} top-0 left-0 md:hidden z-30 bg-gray-100/90 w-full px-4 pb-7 flex flex-col text-black`}>
         <div className='h-20 flex items-center'>
           <h1>BEACHES.</h1>
         </div>
