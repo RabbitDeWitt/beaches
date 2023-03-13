@@ -1,4 +1,4 @@
-import { Destinations, Hero, Navbar } from "./pages";
+import { Carousel, Destinations, Footer, Hero, Navbar, Selects } from "./pages";
 import Search from "./pages/Search";
 
 
@@ -10,6 +10,9 @@ function App() {
       <Hero />
       <Destinations />
       <Search />
+      <Selects />
+      <Carousel />
+      <Footer />
     </div>
   );
 }

@@ -1,4 +1,3 @@
-import React from 'react'
 import { destinationImages } from '../constants'
 
 type Props = {}
